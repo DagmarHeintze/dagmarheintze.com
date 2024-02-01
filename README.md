@@ -1,7 +1,3 @@
-![Profile Picture](images/profile.jpg)
-
-
-
 
 ### Hi there 👋
 
