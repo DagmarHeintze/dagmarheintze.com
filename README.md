@@ -1,8 +1,6 @@
 ![Profile Picture](images/profile.jpg)
 
-git add .
-git commit -m "Add profile picture"
-git push origin master
+
 
 
 ### Hi there 👋
