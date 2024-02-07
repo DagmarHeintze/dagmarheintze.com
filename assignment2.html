@@ -97,7 +97,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="load-the-data" class="level1">
-<h1><span class="smallcaps"><u>Load the Data:</u></span></h1>
+<h1><span class="smallcaps"><u>Load the Data</u></span></h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(haven)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>TEDS_2016 <span class="ot">&lt;-</span> <span class="fu">read_stata</span>(<span class="st">"https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true"</span>)</span>
@@ -378,7 +378,7 @@ F-statistic: 8.072 on 3 and 1070 DF,  p-value: 2.551e-05</code></pre>
 </div>
 </section>
 <section id="logistic-regression" class="level1">
-<h1><span class="smallcaps"><u>Logistic Regression:</u></span></h1>
+<h1><span class="smallcaps"><u>Logistic Regression</u></span></h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>logit_model_votetsai <span class="ot">&lt;-</span> <span class="fu">glm</span>(votetsai <span class="sc">~</span> age <span class="sc">+</span> income <span class="sc">+</span> edu, <span class="at">data =</span> TEDS_2016_clean, <span class="at">family =</span> binomial)</span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(logit_model_votetsai)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -412,7 +412,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 </div>
 </section>
 <section id="generate-a-frequency-table" class="level1">
-<h1><span class="smallcaps"><u>Generate A Frequency Table:</u></span></h1>
+<h1><span class="smallcaps"><u>Generate A Frequency Table</u></span></h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assigning labels to the Tondu variable</span></span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>TEDS_2016<span class="sc">$</span>Tondu <span class="ot">&lt;-</span> <span class="fu">factor</span>(TEDS_2016<span class="sc">$</span>Tondu, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Unification now"</span>, <span class="st">"Status quo, unif. in future"</span>, <span class="st">"Status quo, decide later"</span>, <span class="st">"Status quo forever"</span>, <span class="st">"Status quo, indep. in future"</span>, <span class="st">"Independence now"</span>, <span class="st">"No response"</span>))</span>

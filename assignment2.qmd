@@ -2,7 +2,7 @@
 title: "Assignment 2"
 ---
 
-# [[Load the Data:]{.underline}]{.smallcaps}
+# [[Load the Data]{.underline}]{.smallcaps}
 
 ```{r}
 library(haven)
@@ -100,7 +100,7 @@ summary(lm_model_votetsai)
 
 ```
 
-# [[Logistic Regression:]{.underline}]{.smallcaps}
+# [[Logistic Regression]{.underline}]{.smallcaps}
 
 ```{r}
 logit_model_votetsai <- glm(votetsai ~ age + income + edu, data = TEDS_2016_clean, family = binomial)
@@ -108,7 +108,7 @@ summary(logit_model_votetsai)
 
 ```
 
-# [[Generate A Frequency Table:]{.underline}]{.smallcaps}
+# [[Generate A Frequency Table]{.underline}]{.smallcaps}
 
 ```{r}
 # Assigning labels to the Tondu variable
