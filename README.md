@@ -1,4 +1,4 @@
-![Header](images/IMG_4771.JPG)
+![Header](images/IMG_4771-2.jpg)
 
 ![Profile Picture](images/profile.jpg)
 
