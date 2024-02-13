@@ -27,7 +27,7 @@ summary(TEDS_2016_clean) # Summary statistics for all variables # If you want to
 # [[Correlation Analysis]{.underline}]{.smallcaps}
 
 ```{r}
-correlation_matrix <- cor(TEDS_2016_clean[c("Tondu", "age", "income", "edu")])
+correlation_matrix <- cor(TEDS_2016_clean[c("Tondu", "age", "income", "edu", "female", "DPP", "Econ_worse")])
 correlation_matrix 
 
 ```
@@ -53,7 +53,7 @@ hist(TEDS_2016_clean$Tondu, xlab = "Tondu", main = "Histogram of Tondu")
 # [[Linear Regression (assuming Tondu is continuous)]{.underline}]{.smallcaps}
 
 ```{r}
-lm_model <- lm(Tondu ~ age + income + edu, data = TEDS_2016_clean)
+lm_model <- lm(Tondu ~ female + age + income + edu + DPP + Econ_worse, data = TEDS_2016_clean)
 summary(lm_model)
 
 ```
@@ -87,7 +87,7 @@ summary(TEDS_2016_clean$votetsai)
 # [[Correlation Analysis]{.underline}]{.smallcaps}
 
 ```{r}
-correlation_matrix_votetsai <- cor(TEDS_2016_clean[c("votetsai", "age", "income", "edu")])
+correlation_matrix_votetsai <- cor(TEDS_2016_clean[c("votetsai", "age", "income", "edu" , "female" , "DPP" , "Econ_worse")])
 print(correlation_matrix_votetsai)
 
 ```
@@ -95,7 +95,7 @@ print(correlation_matrix_votetsai)
 # [[Regression Analysis: Linear Regression:]{.underline}]{.smallcaps}
 
 ```{r}
-lm_model_votetsai <- lm(votetsai ~ age + income + edu, data = TEDS_2016_clean)
+lm_model_votetsai <- lm(votetsai ~ age + income + edu + female + DPP + Econ_worse, data = TEDS_2016_clean)
 summary(lm_model_votetsai)
 
 ```
@@ -103,7 +103,7 @@ summary(lm_model_votetsai)
 # [[Logistic Regression]{.underline}]{.smallcaps}
 
 ```{r}
-logit_model_votetsai <- glm(votetsai ~ age + income + edu, data = TEDS_2016_clean, family = binomial)
+logit_model_votetsai <- glm(votetsai ~ female + DPP + age + income + edu + Taiwanese + Econ_worse, data = TEDS_2016_clean, family = binomial)
 summary(logit_model_votetsai)
 
 ```

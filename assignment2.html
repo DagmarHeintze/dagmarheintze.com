@@ -57,24 +57,154 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="assignment2_files/libs/clipboard/clipboard.min.js"></script>
-<script src="assignment2_files/libs/quarto-html/quarto.js"></script>
-<script src="assignment2_files/libs/quarto-html/popper.min.js"></script>
-<script src="assignment2_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="assignment2_files/libs/quarto-html/anchor.min.js"></script>
-<link href="assignment2_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="assignment2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="assignment2_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="assignment2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="assignment2_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./workingpapers.html">
+ <span class="dropdown-text">Working Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">Peer-reviewed Research</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./presentations.qmd"> 
+<span class="menu-text">Conference Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./CV 01_2024.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-assignments" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Assignments</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-assignments">    
+        <li>
+    <a class="dropdown-item" href="./assignment1.html">
+ <span class="dropdown-text">Assignment1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./assignment2.html">
+ <span class="dropdown-text">Assignment2.0</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Lab01.html">
+ <span class="dropdown-text">Assignment2.1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Lab02.html">
+ <span class="dropdown-text">Assignment2.2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./assignment3.html">
+ <span class="dropdown-text">Assignment3</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#load-the-data" id="toc-load-the-data" class="nav-link active" data-scroll-target="#load-the-data"><span class="smallcaps"><u>Load the Data</u></span></a></li>
+  <li><a href="#remove-observations-with-any-missing-values" id="toc-remove-observations-with-any-missing-values" class="nav-link" data-scroll-target="#remove-observations-with-any-missing-values"><span class="smallcaps"><u>Remove observations with any missing values</u></span></a></li>
+  <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link" data-scroll-target="#descriptive-statistics"><span class="smallcaps"><u>Descriptive Statistics</u></span></a></li>
+  <li><a href="#correlation-analysis" id="toc-correlation-analysis" class="nav-link" data-scroll-target="#correlation-analysis"><span class="smallcaps"><u>Correlation Analysis</u></span></a></li>
+  <li><a href="#scatter-plots" id="toc-scatter-plots" class="nav-link" data-scroll-target="#scatter-plots"><span class="smallcaps"><u>Scatter plots</u></span></a></li>
+  <li><a href="#box-plots" id="toc-box-plots" class="nav-link" data-scroll-target="#box-plots"><span class="smallcaps"><u>Box plots</u></span></a></li>
+  <li><a href="#histogramsdensity-plots" id="toc-histogramsdensity-plots" class="nav-link" data-scroll-target="#histogramsdensity-plots"><span class="smallcaps"><u>Histograms/Density plots</u></span></a></li>
+  <li><a href="#linear-regression-assuming-tondu-is-continuous" id="toc-linear-regression-assuming-tondu-is-continuous" class="nav-link" data-scroll-target="#linear-regression-assuming-tondu-is-continuous"><span class="smallcaps"><u>Linear Regression (assuming Tondu is continuous)</u></span></a></li>
+  <li><a href="#rerun-the-analysis-for-the-votetsai-variable" id="toc-rerun-the-analysis-for-the-votetsai-variable" class="nav-link" data-scroll-target="#rerun-the-analysis-for-the-votetsai-variable"><span class="smallcaps"><u>Rerun the analysis for the votetsai variable</u></span></a></li>
+  <li><a href="#descriptive-statistics-1" id="toc-descriptive-statistics-1" class="nav-link" data-scroll-target="#descriptive-statistics-1"><span class="smallcaps"><u>Descriptive Statistics</u></span></a></li>
+  <li><a href="#correlation-analysis-1" id="toc-correlation-analysis-1" class="nav-link" data-scroll-target="#correlation-analysis-1"><span class="smallcaps"><u>Correlation Analysis</u></span></a></li>
+  <li><a href="#regression-analysis-linear-regression" id="toc-regression-analysis-linear-regression" class="nav-link" data-scroll-target="#regression-analysis-linear-regression"><span class="smallcaps"><u>Regression Analysis: Linear Regression:</u></span></a></li>
+  <li><a href="#logistic-regression" id="toc-logistic-regression" class="nav-link" data-scroll-target="#logistic-regression"><span class="smallcaps"><u>Logistic Regression</u></span></a></li>
+  <li><a href="#generate-a-frequency-table" id="toc-generate-a-frequency-table" class="nav-link" data-scroll-target="#generate-a-frequency-table"><span class="smallcaps"><u>Generate A Frequency Table</u></span></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -213,14 +343,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="correlation-analysis" class="level1">
 <h1><span class="smallcaps"><u>Correlation Analysis</u></span></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="ot">&lt;-</span> <span class="fu">cor</span>(TEDS_2016_clean[<span class="fu">c</span>(<span class="st">"Tondu"</span>, <span class="st">"age"</span>, <span class="st">"income"</span>, <span class="st">"edu"</span>)])</span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="ot">&lt;-</span> <span class="fu">cor</span>(TEDS_2016_clean[<span class="fu">c</span>(<span class="st">"Tondu"</span>, <span class="st">"age"</span>, <span class="st">"income"</span>, <span class="st">"edu"</span>, <span class="st">"female"</span>, <span class="st">"DPP"</span>, <span class="st">"Econ_worse"</span>)])</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>correlation_matrix </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>              Tondu          age     income        edu
-Tondu   1.000000000  0.004867868 -0.1141681 -0.1121728
-age     0.004867868  1.000000000 -0.2286319 -0.6227109
-income -0.114168090 -0.228631866  1.0000000  0.4009666
-edu    -0.112172833 -0.622710890  0.4009666  1.0000000</code></pre>
+<pre><code>                  Tondu          age      income         edu      female
+Tondu       1.000000000  0.004867868 -0.11416809 -0.11217283  0.11233619
+age         0.004867868  1.000000000 -0.22863187 -0.62271089 -0.02169710
+income     -0.114168090 -0.228631866  1.00000000  0.40096662 -0.04085901
+edu        -0.112172833 -0.622710890  0.40096662  1.00000000 -0.09094714
+female      0.112336190 -0.021697104 -0.04085901 -0.09094714  1.00000000
+DPP         0.238113148 -0.034342785 -0.00898527 -0.03309115 -0.02778868
+Econ_worse  0.025026417  0.118827133 -0.08923223 -0.08201676 -0.04016108
+                   DPP  Econ_worse
+Tondu       0.23811315  0.02502642
+age        -0.03434278  0.11882713
+income     -0.00898527 -0.08923223
+edu        -0.03309115 -0.08201676
+female     -0.02778868 -0.04016108
+DPP         1.00000000  0.20024344
+Econ_worse  0.20024344  1.00000000</code></pre>
 </div>
 </div>
 </section>
@@ -266,29 +407,33 @@ edu    -0.112172833 -0.622710890  0.4009666  1.0000000</code></pre>
 <section id="linear-regression-assuming-tondu-is-continuous" class="level1">
 <h1><span class="smallcaps"><u>Linear Regression (assuming Tondu is continuous)</u></span></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>lm_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(Tondu <span class="sc">~</span> age <span class="sc">+</span> income <span class="sc">+</span> edu, <span class="at">data =</span> TEDS_2016_clean)</span>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>lm_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(Tondu <span class="sc">~</span> female <span class="sc">+</span> age <span class="sc">+</span> income <span class="sc">+</span> edu <span class="sc">+</span> DPP <span class="sc">+</span> Econ_worse, <span class="at">data =</span> TEDS_2016_clean)</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(lm_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
-lm(formula = Tondu ~ age + income + edu, data = TEDS_2016_clean)
+lm(formula = Tondu ~ female + age + income + edu + DPP + Econ_worse, 
+    data = TEDS_2016_clean)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--3.4412 -0.9922 -0.1693  1.0557  5.4566 
+-3.2375 -1.0193 -0.1456  0.7799  5.4481 
 
 Coefficients:
              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)  5.094224   0.285689  17.831  &lt; 2e-16 ***
-age         -0.009692   0.003618  -2.679 0.007504 ** 
-income      -0.039048   0.016122  -2.422 0.015598 *  
-edu         -0.147058   0.041733  -3.524 0.000443 ***
+(Intercept)  4.385589   0.295135  14.860  &lt; 2e-16 ***
+female       0.307641   0.087687   3.508  0.00047 ***
+age         -0.006139   0.003548  -1.730  0.08387 .  
+income      -0.040736   0.015640  -2.605  0.00933 ** 
+edu         -0.106229   0.040830  -2.602  0.00940 ** 
+DPP          0.721549   0.090115   8.007 3.06e-15 ***
+Econ_worse  -0.081424   0.090681  -0.898  0.36944    
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-Residual standard error: 1.468 on 1070 degrees of freedom
-Multiple R-squared:  0.02483,   Adjusted R-squared:  0.02209 
-F-statistic:  9.08 on 3 and 1070 DF,  p-value: 6.141e-06</code></pre>
+Residual standard error: 1.421 on 1067 degrees of freedom
+Multiple R-squared:  0.089, Adjusted R-squared:  0.08388 
+F-statistic: 17.37 on 6 and 1067 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -337,77 +482,96 @@ Labels:
 <section id="correlation-analysis-1" class="level1">
 <h1><span class="smallcaps"><u>Correlation Analysis</u></span></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>correlation_matrix_votetsai <span class="ot">&lt;-</span> <span class="fu">cor</span>(TEDS_2016_clean[<span class="fu">c</span>(<span class="st">"votetsai"</span>, <span class="st">"age"</span>, <span class="st">"income"</span>, <span class="st">"edu"</span>)])</span>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>correlation_matrix_votetsai <span class="ot">&lt;-</span> <span class="fu">cor</span>(TEDS_2016_clean[<span class="fu">c</span>(<span class="st">"votetsai"</span>, <span class="st">"age"</span>, <span class="st">"income"</span>, <span class="st">"edu"</span> , <span class="st">"female"</span> , <span class="st">"DPP"</span> , <span class="st">"Econ_worse"</span>)])</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(correlation_matrix_votetsai)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>            votetsai         age      income         edu
-votetsai  1.00000000 -0.07362609 -0.05985151 -0.05050798
-age      -0.07362609  1.00000000 -0.22863187 -0.62271089
-income   -0.05985151 -0.22863187  1.00000000  0.40096662
-edu      -0.05050798 -0.62271089  0.40096662  1.00000000</code></pre>
+<pre><code>               votetsai         age      income         edu       female
+votetsai    1.000000000 -0.07362609 -0.05985151 -0.05050798  0.001465887
+age        -0.073626092  1.00000000 -0.22863187 -0.62271089 -0.021697104
+income     -0.059851512 -0.22863187  1.00000000  0.40096662 -0.040859006
+edu        -0.050507976 -0.62271089  0.40096662  1.00000000 -0.090947143
+female      0.001465887 -0.02169710 -0.04085901 -0.09094714  1.000000000
+DPP         0.617264356 -0.03434278 -0.00898527 -0.03309115 -0.027788683
+Econ_worse  0.210764935  0.11882713 -0.08923223 -0.08201676 -0.040161079
+                   DPP  Econ_worse
+votetsai    0.61726436  0.21076493
+age        -0.03434278  0.11882713
+income     -0.00898527 -0.08923223
+edu        -0.03309115 -0.08201676
+female     -0.02778868 -0.04016108
+DPP         1.00000000  0.20024344
+Econ_worse  0.20024344  1.00000000</code></pre>
 </div>
 </div>
 </section>
 <section id="regression-analysis-linear-regression" class="level1">
 <h1><span class="smallcaps"><u>Regression Analysis: Linear Regression:</u></span></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>lm_model_votetsai <span class="ot">&lt;-</span> <span class="fu">lm</span>(votetsai <span class="sc">~</span> age <span class="sc">+</span> income <span class="sc">+</span> edu, <span class="at">data =</span> TEDS_2016_clean)</span>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>lm_model_votetsai <span class="ot">&lt;-</span> <span class="fu">lm</span>(votetsai <span class="sc">~</span> age <span class="sc">+</span> income <span class="sc">+</span> edu <span class="sc">+</span> female <span class="sc">+</span> DPP <span class="sc">+</span> Econ_worse, <span class="at">data =</span> TEDS_2016_clean)</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(lm_model_votetsai)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
-lm(formula = votetsai ~ age + income + edu, data = TEDS_2016_clean)
+lm(formula = votetsai ~ age + income + edu + female + DPP + Econ_worse, 
+    data = TEDS_2016_clean)
 
 Residuals:
-    Min      1Q  Median      3Q     Max 
--0.7911 -0.5717  0.3226  0.3896  0.6100 
+     Min       1Q   Median       3Q      Max 
+-1.06721 -0.31611 -0.00799  0.11645  0.85415 
 
 Coefficients:
-             Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)  1.062065   0.093989  11.300  &lt; 2e-16 ***
-age         -0.005240   0.001190  -4.402 1.18e-05 ***
-income      -0.006895   0.005304  -1.300 0.193893    
-edu         -0.046548   0.013730  -3.390 0.000724 ***
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  0.6272247  0.0786195   7.978 3.81e-15 ***
+age         -0.0039045  0.0009451  -4.131 3.89e-05 ***
+income      -0.0064951  0.0041663  -1.559  0.11931    
+edu         -0.0283583  0.0108764  -2.607  0.00925 ** 
+female       0.0094330  0.0233585   0.404  0.68642    
+DPP          0.5833506  0.0240053  24.301  &lt; 2e-16 ***
+Econ_worse   0.0962289  0.0241561   3.984 7.25e-05 ***
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-Residual standard error: 0.483 on 1070 degrees of freedom
-Multiple R-squared:  0.02213,   Adjusted R-squared:  0.01939 
-F-statistic: 8.072 on 3 and 1070 DF,  p-value: 2.551e-05</code></pre>
+Residual standard error: 0.3786 on 1067 degrees of freedom
+Multiple R-squared:  0.4011,    Adjusted R-squared:  0.3977 
+F-statistic: 119.1 on 6 and 1067 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
 </section>
 <section id="logistic-regression" class="level1">
 <h1><span class="smallcaps"><u>Logistic Regression</u></span></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>logit_model_votetsai <span class="ot">&lt;-</span> <span class="fu">glm</span>(votetsai <span class="sc">~</span> age <span class="sc">+</span> income <span class="sc">+</span> edu, <span class="at">data =</span> TEDS_2016_clean, <span class="at">family =</span> binomial)</span>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>logit_model_votetsai <span class="ot">&lt;-</span> <span class="fu">glm</span>(votetsai <span class="sc">~</span> female <span class="sc">+</span> DPP <span class="sc">+</span> age <span class="sc">+</span> income <span class="sc">+</span> edu <span class="sc">+</span> Taiwanese <span class="sc">+</span> Econ_worse, <span class="at">data =</span> TEDS_2016_clean, <span class="at">family =</span> binomial)</span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(logit_model_votetsai)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
-glm(formula = votetsai ~ age + income + edu, family = binomial, 
-    data = TEDS_2016_clean)
+glm(formula = votetsai ~ female + DPP + age + income + edu + 
+    Taiwanese + Econ_worse, family = binomial, data = TEDS_2016_clean)
 
 Deviance Residuals: 
     Min       1Q   Median       3Q      Max  
--1.7225  -1.3042   0.8823   0.9898   1.3862  
+-2.9179  -0.6355   0.1984   0.4021   2.1644  
 
 Coefficients:
              Estimate Std. Error z value Pr(&gt;|z|)    
-(Intercept)  2.377646   0.411340   5.780 7.46e-09 ***
-age         -0.022262   0.005153  -4.320 1.56e-05 ***
-income      -0.029579   0.022694  -1.303 0.192436    
-edu         -0.197429   0.059136  -3.339 0.000842 ***
+(Intercept) -0.264494   0.604257  -0.438  0.66159    
+female      -0.177111   0.176130  -1.006  0.31462    
+DPP          3.527215   0.274343  12.857  &lt; 2e-16 ***
+age         -0.014853   0.007181  -2.068  0.03859 *  
+income      -0.032439   0.031312  -1.036  0.30021    
+edu         -0.123086   0.083871  -1.468  0.14222    
+Taiwanese    1.508897   0.180498   8.360  &lt; 2e-16 ***
+Econ_worse   0.507518   0.174146   2.914  0.00356 ** 
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 (Dispersion parameter for binomial family taken to be 1)
 
-    Null deviance: 1435.7  on 1073  degrees of freedom
-Residual deviance: 1411.9  on 1070  degrees of freedom
-AIC: 1419.9
+    Null deviance: 1435.70  on 1073  degrees of freedom
+Residual deviance:  842.31  on 1066  degrees of freedom
+AIC: 858.31
 
-Number of Fisher Scoring iterations: 4</code></pre>
+Number of Fisher Scoring iterations: 6</code></pre>
 </div>
 </div>
 </section>
@@ -441,10 +605,11 @@ Status quo, indep. in future             Independence now
 </div>
 </div>
 </div>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
