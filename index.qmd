@@ -1,16 +1,16 @@
+
 ![](images/IMG_4771-2.jpg){width="150%"}
 
 ---
-title: "Dagmar Heintze"
 format: 
   html:
-    theme: cosmo
+    theme: sandstone
     include:
       in_header: "style.css"
 ---
 
 <div class="profile-container">
-<img src="images/profile.jpg" alt="Profile picture of Dagmar Heintze" style="width: 180px; margin-right: 30px;" />
+<img src="images/profile.jpg" alt="Profile picture of Dagmar Heintze" style="width: 180p; margin-right: 30px;" />
 
  <div class="profile-text">
 
@@ -22,9 +22,9 @@ I am a political science doctoral student, studying International Relations at [
 
 - Furthermore, I research international human rights litigation at regional and international courts and the UN treaty bodies.
 
-Get in touch: [dagmar.heintze@utdallas.edu](mailto:dagmar.heintze@utdallas.edu)
-
-[Website](https://dagmarheintze.github.io) | [Twitter](https://twitter.com/DagmarHeintze) | [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
-
+<div class="contact-section">
+  Get in touch: <a href="mailto:dagmar.heintze@utdallas.edu">dagmar.heintze@utdallas.edu</a>  | 
+[Twitter](https://twitter.com/DagmarHeintze) | [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
+</div>
 </div>
 </div>

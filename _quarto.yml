@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  title: Dagmar Heintze
   navbar:
     right:
       - href: index.qmd
