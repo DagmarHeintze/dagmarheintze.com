@@ -1,25 +1,30 @@
-![](images/IMG_4771-2.jpg)
+![](images/IMG_4771-2.jpg){width="150%"}
 
 ---
 title: "Dagmar Heintze"
+format: 
+  html:
+    theme: cosmo
+    include:
+      in_header: "style.css"
 ---
 
-![](images/profile.jpg){width="300"}
+<div class="profile-container">
+<img src="images/profile.jpg" alt="Profile picture of Dagmar Heintze" style="width: 280px; margin-right: 30px;" />
 
-I am a doctoral student studying International Relations. My research topics are Conflict, Human Rights, and International Law.
+ <div class="profile-text">
 
-My main research interests are :
+I am a political science doctoral student, studying International Relations at [the University of Texas at Dallas](https://www.utdallas.edu/fact-sheets/epps/phd-political-science/). My research topics are Conflict, Human Rights, and International Law.
 
--   My research focuses on conflict processes and political violence, specifically which factors mobilize individuals to participate in political violence and how this violence affects communities in the aftermath.
+- My research focuses on conflict processes and political violence, specifically which factors mobilize individuals to participate in political violence and how this violence affects communities in the aftermath.
 
--   I further focus on the prevention of torture and inhuman and degrading behavior or punishment and international mechanisms seeking to accomplish improved compliance with international human rights law.
+- I further focus on the prevention of torture and inhuman and degrading behavior or punishment and international mechanisms seeking to accomplish improved compliance with international human rights law.
 
--   Furthermore, I research international human rights litigation at regional and international courts and the UN treaty bodies.
+- Furthermore, I research international human rights litigation at regional and international courts and the UN treaty bodies.
 
-Contact me [dagmar.heintze\@utdallas.edu](mailto:dagmar.heintze@utdallas.edu)
+Contact me at [dagmar.heintze@utdallas.edu](mailto:dagmar.heintze@utdallas.edu)
 
-[Website](https://dagmarheintze.github.io), [X](https://twitter.com/DagmarHeintze),
-[Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
+[Website](https://dagmarheintze.github.io) | [Twitter](https://twitter.com/DagmarHeintze) | [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
 
-```         
-```
+</div>
+</div>

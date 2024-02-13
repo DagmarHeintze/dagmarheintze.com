@@ -2,17 +2,15 @@ project:
   type: website
 
 website:
-  title: "Dagmar Heintze"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
       - text: Research
         menu: 
         - href: workingpapers.qmd
           text: Working Papers
-        - href: peer-reviewdresearch.qmd
+        - href: research.qmd
           text: Peer-reviewed Research
       - href: presentations.qmd 
         text: Conference Presentations 
