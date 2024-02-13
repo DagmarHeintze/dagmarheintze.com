@@ -1,5 +1,24 @@
 /* css styles */
 
+.profile-container {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Vertically aligns items in the container */
+  justify-content: flex-start; /* Horizontally aligns items to the start */
+  flex-wrap: wrap; /* Allows items to wrap to the next line on small screens */
+}
+
+.profile-container img {
+  flex: 0 0 auto; /* Prevents the image from growing or shrinking */
+  width: 180px; /* Sets a fixed width for the image */
+  height: auto; /* Ensures the aspect ratio of the image is maintained */
+  margin-right: 30px; /* Adds space between the image and the text */
+  margin-top: -50px; /* Moves the image up by reducing the space above it; adjust as needed */
+}
+
+.profile-text {
+  flex: 1; /* Allows the text block to fill the remaining space */
+  text-align: justify; /* Justifies the text within the text block */
+}
 
 
 /* Base settings */
@@ -16,17 +35,6 @@ body {
   max-width: 1200px; /* Adjusted for a wider layout */
   margin: 0 auto;
   padding: 0 20px;
-}
-
-/* Container for profile image and text */
-.profile-container {
-  display: flex;
-  align-items: flex-start;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  margin-top: 20px;
 }
 
 /* Profile image styling */
@@ -116,4 +124,21 @@ li {
   .container {
     padding: 0 10px;
   }
+}
+
+/* Direct targeting with a class */
+.contact-section {
+  border-top: 1px solid #ccc; /* Color of the line */
+  padding-top: 20px; /* Space between the line and the text below it */
+  margin-top: 20px; /* Space above the line */
+  width: 100%; /* Ensures the element spans the full width */
+  box-sizing: border-box; /* Ensures padding does not add to the overall width */
+}
+
+/* Ensure the body and html have no margin or padding that could affect the full width */
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scroll due to padding or margin overflow */
 }
