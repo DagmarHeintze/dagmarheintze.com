@@ -8,7 +8,6 @@ format:
     include:
       in_header: "style.css"
 ---
-
 <div class="profile-container">
 <img src="images/profile.jpg" alt="Profile picture of Dagmar Heintze" style="width: 180p; margin-right: 30px;" />
 
@@ -25,6 +24,7 @@ I am a political science doctoral student, studying International Relations at [
 <div class="contact-section">
   Get in touch: <a href="mailto:dagmar.heintze@utdallas.edu">dagmar.heintze@utdallas.edu</a>  | 
 [Twitter](https://twitter.com/DagmarHeintze) | [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
+
 </div>
 </div>
 </div>

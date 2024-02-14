@@ -20,6 +20,10 @@
   text-align: justify; /* Justifies the text within the text block */
 }
 
+.workingpapers-text {
+  flex: 1; /* Allows the text block to fill the remaining space */
+  text-align: justify; /* Justifies the text within the text block */
+}
 
 /* Base settings */
 body {
