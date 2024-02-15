@@ -46,7 +46,7 @@ new_model <- fit
 summary(new_model)
 ```
 
-```{}
+```         
 ```
 
 ```{r}

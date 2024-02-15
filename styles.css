@@ -23,7 +23,17 @@
 .workingpapers-text {
   flex: 1; /* Allows the text block to fill the remaining space */
   text-align: justify; /* Justifies the text within the text block */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px; /* Adjust this value as needed */
 }
+
+.assignment1-text {
+  flex: 1; /* Allows the text block to fill the remaining space */
+  text-align: justify; /* Justifies the text within the text block */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px; /* Adjust this value as needed */
+}
+
 
 /* Base settings */
 body {
