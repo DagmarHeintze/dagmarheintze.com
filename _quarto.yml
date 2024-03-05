@@ -29,6 +29,8 @@ website:
           text: Assignment2.2
         - href: assignment3.qmd 
           text: Assignment3
+        - href: assignment4.qmd
+          text: Assignment4
 
 format:
   html:
