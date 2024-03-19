@@ -31,7 +31,7 @@ website:
           text: Assignment3
         - href: assignment4.qmd
           text: Assignment4
-        - href: Lab04_UL.qmd
+        - href: Lab04.qmd
           text: Lab04
 format:
   html:
