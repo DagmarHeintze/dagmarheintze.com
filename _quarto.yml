@@ -31,8 +31,10 @@ website:
           text: Assignment3
         - href: assignment4.qmd
           text: Assignment4
-        - href: Lab04.qmd
-          text: Lab04
+        - href: assignment5.qmd
+          text: Assignment5
+        - href: assignment6.qmd
+          text: Assignment6
 format:
   html:
     theme: sandstone
