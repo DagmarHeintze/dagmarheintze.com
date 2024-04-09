@@ -5,37 +5,37 @@ website:
   title: Dagmar Heintze
   navbar:
     right:
-      - href: index.qmd
+      - href: index.hml
         text: Home
       - text: Research
         menu: 
-        - href: workingpapers.qmd
+        - href: workingpapers.html
           text: Working Papers
-        - href: research.qmd
+        - href: research.html
           text: Peer-reviewed Research
-      - href: presentations.qmd 
+      - href: presentations.html 
         text: Conference Presentations 
       - href: CV 03_2024.pdf
         text: CV 
       - text: Assignments 
         menu: 
-        - href: assignment1.qmd 
+        - href: assignment1.html 
           text: Assignment1 
-        - href: assignment2.qmd
+        - href: assignment2.html
           text: Assignment2.0 
-        - href: Lab01.qmd
+        - href: Lab01.html
           text: Assignment2.1
-        - href: Lab02.qmd
+        - href: Lab02.html
           text: Assignment2.2
-        - href: assignment3.qmd 
+        - href: assignment3.html 
           text: Assignment3
-        - href: assignment4.qmd
+        - href: assignment4.html
           text: Assignment4
-        - href: assignment5.qmd
+        - href: assignment5.html
           text: Assignment5
-        - href: assignment6_1.qmd
+        - href: assignment6_1.html
           text: Assignment6
-        - href: assignment7.qmd
+        - href: assignment7.html
           text: Assignment7
 format:
   html:
