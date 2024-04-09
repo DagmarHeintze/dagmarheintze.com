@@ -107,7 +107,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(haven) </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>TEDS_2016 <span class="ot">&lt;-</span> <span class="fu">read_stata</span>(<span class="st">"https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>&nbsp;Are female voters more likely to vote for President Tsai? Why or why not?&nbsp;</p>
+<ol type="1">
+<li><strong>General linear modeling approach:</strong></li>
+</ol>
+<p>Are female voters more likely to vote for President Tsai? Why or why not?&nbsp;</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>glm.vt<span class="ot">=</span><span class="fu">glm</span>(votetsai<span class="sc">~</span>female, <span class="at">data=</span>TEDS_2016,<span class="at">family=</span>binomial)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(glm.vt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -331,6 +334,9 @@ Number of Fisher Scoring iterations: 5</code></pre>
 </div>
 </div>
 <p>I find that DPP membership is the single strongest predictor for voting for president Tsai. All other variables, a voter being female, a higher level of education, income and a higher age all lead to a decrease in likelihood of voting for the president. Membership in the KMT party, furthermore, has a strong, negative and significant effect on the likelihood of a person voting for president Tsai.</p>
+<ol start="2" type="1">
+<li><strong>Alternative Modeling</strong></li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>glm_model2 <span class="ot">&lt;-</span> <span class="fu">glm</span>(<span class="at">formula =</span> votetsai <span class="sc">~</span> Independence <span class="sc">+</span> Econ_worse <span class="sc">+</span> Govt_dont_care <span class="sc">+</span> Minnan_father <span class="sc">+</span> Mainland_father <span class="sc">+</span> Taiwanese, <span class="at">family =</span> binomial, <span class="at">data =</span> TEDS_2016)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(glm_model2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
