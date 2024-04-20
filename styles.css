@@ -140,6 +140,16 @@ li {
   }
 }
 
+.assignment7-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.LabAssignment7-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Direct targeting with a class */
 .contact-section {
   border-top: 1px solid #ccc; /* Color of the line */

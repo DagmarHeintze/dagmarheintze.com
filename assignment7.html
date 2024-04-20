@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dagmar Heintze</title>
+<title>Dagmar Heintze - Assignment 7</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -153,10 +153,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Assignment6</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./LabAssignment7.html">
- <span class="dropdown-text">LabAssignment7</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./assignment7.html">
  <span class="dropdown-text">Assignment7</span></a>
   </li>  
@@ -179,23 +175,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Assignment 7</h1>
+</div>
 
 
 
-<p><img src="images/IMG_4771-2.jpg" class="img-fluid" style="width:150.0%"></p>
-<div class="profile-container">
-<p><img src="images/profile.jpg" alt="Profile picture of Dagmar Heintze" style="width: 180p; margin-right: 30px;"></p>
-<div class="profile-text">
-<p>I am a political science doctoral student, studying International Relations at <a href="https://www.utdallas.edu/fact-sheets/epps/phd-political-science/">the University of Texas at Dallas</a>. My research topics are Conflict, Human Rights, and International Law.</p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="assignment7-text">
+<ol type="1">
+<li><p>Review ISLR Chapter 4 and look up answers for the following questions:</p>
 <ul>
-<li><p>My research focuses on conflict processes and political violence, specifically which factors mobilize individuals to participate in political violence and how this violence affects communities in the aftermath.</p></li>
-<li><p>I further focus on the prevention of torture and inhuman and degrading behavior or punishment and international mechanisms seeking to accomplish improved compliance with international human rights law.</p></li>
-<li><p>Furthermore, I research international human rights litigation at regional and international courts and the UN treaty bodies.</p></li>
-</ul>
-<div class="contact-section">
-<p>Get in touch: <a href="mailto:dagmar.heintze@utdallas.edu">dagmar.heintze@utdallas.edu</a> | <a href="https://twitter.com/DagmarHeintze">Twitter</a> | <a href="https://bsky.app/profile/dagmarheintze.bsky.social">Bluesky Social</a></p>
-</div>
-</div>
+<li><p>What is/are the requirement(s) of LDA?</p>
+<p>The Linear Discriminant Analysis (LDA) assumes that the independent variables are normally distributed as a Gaussian distribution in each class. Hence, for an LDA to be an appropriate modeling strategy, the independent variables should fulfill this requirement. Also, the LDA requires equal variances across all of the classes (Homoscedasticity). We also need to be able to separate the different classes linearly, and the LDA requires a sample size that is big enough so that the observations in each class are more than the number of independent variables we use for our analysis. All observations need to be independent and uncorrelated, and the dependent variable needs to be categorical. Also, for the LDA to be able to correctly define the classes, we need to remove outliers or appropriately account for them before running it. And finally, for an LDA to run correctly, the classes should ideally be clearly separated.</p></li>
+<li><p>How LDA is different from Logistic Regression?</p>
+<p>When we conduct logistic regressions, we directly model the distribution of the response variable conditional on the predictors. We use a logistic function to do so and do not make any assumptions about the normal distribution of the predictor variables. Logistic regressions can be more robust than LDA when the LDA assumptions are violated, for example, when the predictor variables are not normally distributed and the response variable classes are not homoscedastic. In contrast to logistic regressions, LDA assumes that the predictors are normally distributed, and the distribution of the predictors is modeled separately in each of the response classes. LDA uses the Bayes’ theorem to flip the previously modeled distributions of the predictors around to derive estimates for the probability of the response variable conditional on the predictor. When the distribution of the predictor within each of the response classes is assumed to be normal, then the model can appear very similar to a logistic regression. LDA is useful when there is separation between two response classes, when the predictor distribution is about normal and we have a small sample size, and when we want to model more than two response categories.</p></li>
+<li><p>What is ROC?</p>
+<p>ROC is the abbreviation for <em>receiver operating characteristics,</em> a term that comes from communications theory. ROC curves are commonly used to display the two types of errors for all possible thresholds at the same time. The area under the ROC curve displays the overall performance of a classifier at all possible thresholds, with an ideal ROC curve being attached to the upper left corner. The bigger the area under the ROC curve is, the better the classifier, with the underlying assumption that a classifier that has no better performance than pure chance has an area under the ROC curve of 0.5. The closer to 1, the better.</p></li>
+<li><p>What is sensitivity and specificity? Which is more important in your opinion?</p>
+<ul>
+<li><p>The Sensitivity, or the True Positive Rate or Recall represents how often true positives are correctly identified by the classifier. The sensitivity tells us how often the test will correctly identify the positive condition, for example in the case of a disease.</p></li>
+<li><p>The Specificity, or the True Negative Rate, in contrast, measures how often the test will correctly identify true negatives, The specificity tells us how often a true negative finding, as a negative medical test, will truly be identified as negative and not be counted as a false positive.</p></li>
+<li><p>Neither one of the rates, neither the True Positive nor the True Negative Rate can be considered to generally be more important than the other. When it matters whether a patient is truly positive when tested for a condition or infectious disease, such as an HIV infection of a blood donor, for example, I would say sensitivity is more important because missing a positive test would have catastrophic outcomes for all blood recipients. When it comes to false positive tests, such as, for example, a false positive COVID test confining a worker to quarantine at the beginning of the pandemic, which could result in their job loss, or invasive and costly treatments, I would say specificity is important. A false positive could have negative effects on the person’s life. However, a false negative and an infected person turning into a super-spreader may be even worse. To conclude, whether sensitivity or specificity is more important depends on the context.</p></li>
+</ul></li>
+<li><p>From the chart, for the purpose of prediction, which is more critical?</p>
+<p>The chart in itself does not allow me to estimate which is more critical. As explained above, whether the false negative or the false positive rate are more critical will depend on the context.</p></li>
+<li><p>Calculate the prediction error from the confusion matrix:</p>
+<p>To calculate the prediction error from the confusion matrix, I need to consider the following calculation: Prediction Error= FP+FN / Total Predictions = 23+252 / 10000 = 0.0275, or 2.75%. Therefore, 2.75% of the predictions the model made are incorrect.<br>
+</p></li>
+</ul></li>
+</ol>
 </div>
 
 

@@ -35,8 +35,14 @@ website:
           text: Assignment5
         - href: assignment6_1.html
           text: Assignment6
+        - href: LabAssignment7.html
+          text: LabAssignment7
         - href: assignment7.html
           text: Assignment7
+        - href: LabAssignment8.html
+          text: LabAssignment8
+        - href: assignment8.html
+          text: Assignment8
 format:
   html:
     theme: sandstone
