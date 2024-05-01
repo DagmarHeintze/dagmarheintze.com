@@ -35,6 +35,8 @@ website:
           text: Assignment5
         - href: assignment6_1.html
           text: Assignment6
+        - href: Lab_linearregression01.html
+          text: LabAssignment6
         - href: LabAssignment7.html
           text: LabAssignment7
         - href: assignment7.html
