@@ -39,10 +39,12 @@ website:
           text: LabAssignment7
         - href: assignment7.html
           text: Assignment7
-        - href: LabAssignment8.html
+        - href: LabLDA01.html
           text: LabAssignment8
         - href: assignment8.html
           text: Assignment8
+        - href: Final Presentation 6323_050124.pdf
+          text: FinalPresentation
 format:
   html:
     theme: sandstone
