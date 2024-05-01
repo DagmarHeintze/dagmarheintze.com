@@ -5,7 +5,7 @@ website:
   title: Dagmar Heintze
   navbar:
     right:
-      - href: index.hml
+      - href: index.html
         text: Home
       - text: Research
         menu: 
