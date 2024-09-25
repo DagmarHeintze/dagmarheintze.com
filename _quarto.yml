@@ -5,7 +5,7 @@ website:
   title: Dagmar Heintze
   navbar:
     right:
-      - href: index.html
+      - href: index.hml
         text: Home
       - text: Research
         menu: 
@@ -13,15 +13,10 @@ website:
           text: Working Papers
         - href: research.html
           text: Peer-reviewed Research
-      - text: Conference Presentations
-        menu: 
-        - href: 2023APSA_presentation_DHeintze.pdf
-          text: APSA2023
-        - href: 2024MPSA_presentation_DHeintze.pdf
-          text: MPSA2024
+      - href: presentations.html 
+        text: Conference Presentations 
       - href: CV 03_2024.pdf
         text: CV 
-      
 format:
   html:
     theme: sandstone
