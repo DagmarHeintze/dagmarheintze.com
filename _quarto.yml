@@ -13,8 +13,12 @@ website:
           text: Working Papers
         - href: research.html
           text: Peer-reviewed Research
-      - href: presentations.html 
-        text: Conference Presentations 
+      - text: Conference Presentations
+        menu: 
+        - href: 2023APSA_presentation_DHeintze.pdf
+          text: APSA 2023
+        - href: 2024MPSA_presentation_DHeintze.pdf
+          text: MPSA 2024
       - href: CV 03_2024.pdf
         text: CV 
 format:
