@@ -17,28 +17,6 @@ website:
         text: Conference Presentations 
       - href: CV 03_2024.pdf
         text: CV 
-      - text: Assignments 
-        menu: 
-        - href: assignment1.html 
-          text: Assignment1 
-        - href: assignment2.html
-          text: Assignment2.0 
-        - href: Lab01.html
-          text: Assignment2.1
-        - href: Lab02.html
-          text: Assignment2.2
-        - href: assignment3.html 
-          text: Assignment3
-        - href: assignment4.html
-          text: Assignment4
-        - href: assignment5.html
-          text: Assignment5
-        - href: assignment6_1.html
-          text: Assignment6
-        - href: LabAssignment7.html
-          text: LabAssignment7
-        - href: assignment7.html
-          text: Assignment7
 format:
   html:
     theme: sandstone

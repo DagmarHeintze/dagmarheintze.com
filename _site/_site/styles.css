@@ -1,0 +1,168 @@
+/* css styles */
+
+.profile-container {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Vertically aligns items in the container */
+  justify-content: flex-start; /* Horizontally aligns items to the start */
+  flex-wrap: wrap; /* Allows items to wrap to the next line on small screens */
+}
+
+.profile-container img {
+  flex: 0 0 auto; /* Prevents the image from growing or shrinking */
+  width: 180px; /* Sets a fixed width for the image */
+  height: auto; /* Ensures the aspect ratio of the image is maintained */
+  margin-right: 30px; /* Adds space between the image and the text */
+  margin-top: -50px; /* Moves the image up by reducing the space above it; adjust as needed */
+}
+
+.profile-text {
+  flex: 1; /* Allows the text block to fill the remaining space */
+  text-align: justify; /* Justifies the text within the text block */
+}
+
+.workingpapers-text {
+  flex: 1; /* Allows the text block to fill the remaining space */
+  text-align: justify; /* Justifies the text within the text block */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px; /* Adjust this value as needed */
+}
+
+.assignment1-text {
+  flex: 1; /* Allows the text block to fill the remaining space */
+  text-align: justify; /* Justifies the text within the text block */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px; /* Adjust this value as needed */
+}
+
+
+/* Base settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+/* Ensures the content uses more of the available width */
+.container {
+  max-width: 1200px; /* Adjusted for a wider layout */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Profile image styling */
+.profile-image {
+  width: 280px;
+  height: auto;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+/* Text styling for better readability */
+.profile-text {
+  text-align: justify;
+  font-size: 14px;
+}
+
+/* Header Styles */
+
+.name-title {
+  text-align: center;
+  font-size: 2rem; /* Adjusted for appropriate font size */
+  color: #333; /* Dark grey color */
+  padding: 20px 0; /* Adds some spacing above and below the name */
+  margin: 0 auto; /* Ensures it's centered */
+  display: block; /* Ensures the div behaves as a block-level element */
+}
+
+.header {
+  position: relative;
+  overflow: hidden; /* Keeps everything neat */
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensures the image doesn't have extra space below it */
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Ensures the text appears above the image */
+}
+
+.header-content h1 {
+  font-size: 2rem; /* Adjusted for a smaller font size */
+  color: #300; /* Dark grey color */
+  margin: 0; /* Ensures the title is properly aligned without default margins */
+}
+
+/* Link Styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* List styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    margin-bottom: 20px;
+  }
+
+  .profile-text {
+    text-align: left;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
+.assignment7-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.LabAssignment7-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Direct targeting with a class */
+.contact-section {
+  border-top: 1px solid #ccc; /* Color of the line */
+  padding-top: 20px; /* Space between the line and the text below it */
+  margin-top: 20px; /* Space above the line */
+  width: 100%; /* Ensures the element spans the full width */
+  box-sizing: border-box; /* Ensures padding does not add to the overall width */
+}
+
+/* Ensure the body and html have no margin or padding that could affect the full width */
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scroll due to padding or margin overflow */
+}
